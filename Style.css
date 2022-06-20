@@ -2,6 +2,7 @@
 
 html{
     font-size: 10px;
+    background-color: black;
 }
 
 
@@ -9,34 +10,9 @@ html{
     margin: 0px;
     padding: 0px;
     user-select: none;
+
 }
 
-/*
-nav{
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    height: 70px;
-    background-color: rgb(58, 58, 58);
-    display: flex;
-    justify-content: center;
-}
-
-ul{
-    width: 500px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-li{
-    list-style: none;
-}
-
-section{
-    width: 100%;
-}
-*/
 
 #container{
     width: 100%;
@@ -46,16 +22,16 @@ section{
 }
 
 #myBox1{
-    width: 8px;
-    height: 70px;
+    width: 10px;
+    height: 65px;
     margin-left: 3px;
     margin-right: 10px;
     background-color: rgb(66, 66, 255);
 }
 
 #myBox11{
-    width: 8px;
-    height: 45px;
+    width: 10px;
+    height: 35px;
     margin-left: 3px;
     margin-right: 10px;
     background-color: rgb(66, 66, 255);
@@ -63,16 +39,16 @@ section{
 
 
 #myBox2{
-    width: 8px;
-    height: 70px;
+    width: 10px;
+    height: 65px;
     margin-left: 3px;
     margin-right: 10px;
     background-color: red;
 }
 
 #myBox3{
-    width: 8px;
-    height: 45px;
+    width: 10px;
+    height: 35px;
     margin-left: 3px;
     margin-right: 10px;
     background-color: greenyellow;
@@ -102,20 +78,6 @@ header{
 #menu ul li:hover{color: rgb(9, 255, 0);}
 
 
-/* Test 01
-
-.firstPage{
-    position: relative;
-}
-.firstPage_text{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-}
-*/
-
 .row{
     position: relative;
     display: flex;
@@ -139,6 +101,7 @@ header{
 .h-500{height: 500px;}
 .h-700{height: 700px;}
 
+.bg-darkGray{background-color: #373737;}
 .bg-gray{background-color: gray;}
 .bg-white{background-color: white;}
 .bg-yg{background-color: yellowgreen;}
@@ -146,14 +109,13 @@ header{
 .bg-black{background-color: black;}
 
 .text-kr{font-family: 'Noto Sans KR', sans-serif;}
-.text-en{}
 
 .text-title{font-size: 5.5rem; font-weight: 700;}
 .text-normal{font-size: 2.8rem; font-weight: 500;}
 .text-hashTags{font-size: 1.5rem; font-weight: 500;}
 .text-contents{font-size: 1.5rem; font-weight: 300; line-height: 180%;}
 .text-menu{font-size: 1.5rem; font-weight: 500;}
-.text-footer{font-size: 1rem; font-weight: 300; line-height: 200%}
+.text-footer{font-size: 1.2rem; font-weight: 300; line-height: 200%}
 
 .text-black{color: black;}
 .text-white{color: white;}
@@ -162,4 +124,12 @@ header{
 .text-center{text-align: center;}
 .text-left{text-align: left;}
 
+
+.paddingT-35{padding-top: 35px;}
+.paddingT-67{padding-top: 67px;}
 .paddingT-100{padding-top: 200px;}
+.paddingL-10{padding-left: 10px;}
+.paddingL-20{padding-left: 20px;}
+.paddingL-30{padding-left: 30px;}
+.paddingL-50{padding-left: 50px;}
+.paddingL-100{padding-left: 100px;}
